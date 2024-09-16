@@ -86,6 +86,7 @@ The key metrics used for evaluating the models include:
 
 
 **Conclusion**
+
 In a world where fraudulent transactions are always lurking, our model aspires to be the superhero, leveraging advanced machine learning and ensemble techniques to spot the bad guys (frauds) with accuracy! 🦸‍♂️💳 From clever feature engineering to stacking powerful models like XGBoost and RandomForest, we’ve turned raw transaction data into a fraud-busting machine. While handling the innocent outliers, with the help of the Z-score, we made sure our model caught fraudsters even when they try to blend in. 🔍💥
 
 With precision, recall, and some funky visualizations, this project proves that when it comes to fraud detection, we aim to get it covered! 🌟
