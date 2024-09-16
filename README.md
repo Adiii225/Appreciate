@@ -1,12 +1,12 @@
 # **Credit Card Fraud Detection Project**
 
-## **Project Overview** 📊
+## **Project Overview** 
 
 This project aims to build an accurate and reliable model for detecting fraudulent credit card transactions. Given the imbalance between fraudulent and non-fraudulent transactions, we utilize advanced machine learning techniques, ensemble methods, and feature engineering to tackle the challenge efficiently.
 
 ---
 
-## **Table of Contents** 📑
+## **Table of Contents** 
 
 1. [Project Overview](#project-overview)
 2. [Dataset](#dataset)
@@ -24,7 +24,7 @@ This project aims to build an accurate and reliable model for detecting fraudule
 
 ---
 
-## **Problem Statement** 📝
+## **Problem Statement** 
 
 The goal is to detect fraudulent transactions accurately while minimizing false negatives (undetected frauds). This requires:
 1. Utilizing advanced classification models.
@@ -32,7 +32,7 @@ The goal is to detect fraudulent transactions accurately while minimizing false 
 
 ---
 
-## **Key Features and EDA** 🔍
+## **Key Features and EDA** 
 
 Some key features engineered to improve model performance include:
 
@@ -65,7 +65,7 @@ This image shows the distribution of transaction amounts for both fraudulent and
 
 ---
 
-## **Libraries Used** 📚
+## **Libraries Used** 
 
 1. Pandas, Numpy: For data manipulation and analysis.
 2. Seaborn, Matplotlib: For data visualization.
@@ -74,7 +74,7 @@ This image shows the distribution of transaction amounts for both fraudulent and
 
 ---
 
-## **Modeling and Pipeline** ⚙️
+## **Modeling and Pipeline** 
 
 1. **XGBoost**: A gradient boosting method, well-suited for handling complex non-linear relationships in data and imbalanced datasets.
 2. **RandomForest**: A bagging method that reduces overfitting by training multiple decision trees.
@@ -86,7 +86,7 @@ This image shows the distribution of transaction amounts for both fraudulent and
 
 ---
 
-## **Handling Outliers** 🚨
+## **Handling Outliers** 
 
 The dataset has many outliers, with very few false positives. To deal with this, the **Z-Score** method was used.
 
@@ -94,13 +94,13 @@ The dataset has many outliers, with very few false positives. To deal with this,
 
 ---
 
-## **Hyperparameter Tuning** 🔧
+## **Hyperparameter Tuning** 
 
 The models were fine-tuned using parameters such as `max_depth`, `n_estimators`, and regularization strengths to optimize performance.
 
 ---
 
-## **Evaluation Metrics** 📏
+## **Evaluation Metrics** 
 
 The key metrics used for evaluating the models include:
 
@@ -112,8 +112,8 @@ The key metrics used for evaluating the models include:
 
 ---
 
-## **Conclusion** 📘
+## **Conclusion** 
 
-In a world where fraudulent transactions are always lurking, our model aspires to be the superhero, leveraging advanced machine learning and ensemble techniques to spot the bad guys (frauds) with accuracy! 🦸‍♂️💳 From clever feature engineering to stacking powerful models like XGBoost and RandomForest, we’ve turned raw transaction data into a fraud-busting machine. While handling the innocent outliers with the help of the Z-Score, we made sure our model caught fraudsters even when they tried to blend in. 🔍💥
+In a world where fraudulent transactions are always lurking, our model aspires to be the superhero, leveraging advanced machine learning and ensemble techniques to spot the bad guys (frauds) with accuracy! From clever feature engineering to stacking powerful models like XGBoost and RandomForest, we’ve turned raw transaction data into a fraud-busting machine. While handling the innocent outliers with the help of the Z-Score, we made sure our model caught fraudsters even when they tried to blend in. 
 
-With precision, recall, and some funky visualizations, this project proves that when it comes to fraud detection, we aim to get it covered! 🌟
+With precision, recall, and some funky visualizations, this project proves that when it comes to fraud detection, we aim to get it covered!
